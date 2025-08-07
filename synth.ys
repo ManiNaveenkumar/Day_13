@@ -1,0 +1,4 @@
+read_verilog ram.v
+prep -top ram
+show -format svg -prefix ram_map
+
